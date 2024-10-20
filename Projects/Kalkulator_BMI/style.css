@@ -1,0 +1,78 @@
+body {
+    header{
+        text-align: center;
+        font-size: 30px;
+        background-color: #f0f0f0;
+        padding: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 700px 700px ;
+      gap: 50px;
+      padding: 50px;
+    }
+    .box {
+      background-color: #f0f0f0;
+      padding: 30px;
+    }
+
+    .image-box{
+        display: grid;
+        grid-template-columns: 40px auto ;
+        margin-bottom: 20px;
+    }
+
+    img {
+        background-color: silver;
+        height: 40px;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid silver;
+    }
+    
+    .custom-input{
+        margin-top: 5px;
+        border: 1px solid silver;
+        padding: 10px;
+        height: 40px;
+        weight: 10px;
+        
+    }
+    button {
+        border: 1px solid silver;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    #hitung {
+        background-color: #99ccff;
+        color: white;
+    }
+
+    .teks {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+
+    #score-hasil {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #hasil {
+        margin-top: 1px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #ket {
+        margin-top: 1px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}
